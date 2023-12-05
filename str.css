@@ -62,11 +62,7 @@
 
 @media screen and (min-width: 610px) and (max-width: 3000px){
     .cx_desempenho{
-        margin-left: 90%;
-        transition: 0.5s;
-    }
-    .cx_desempenho:hover{
-        transform: translateX(-270px);
+        margin-left: 70%;
         transition: 0.5s;
     }
 
