@@ -60,7 +60,7 @@
     }
 }
 
-@media screen and (min-width: 610px) and (max-width: 1100px){
+@media screen and (min-width: 610px) and (max-width: 3000px){
     .cx_desempenho{
         margin-left: 90%;
         transition: 0.5s;
