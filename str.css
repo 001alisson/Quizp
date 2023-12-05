@@ -1,0 +1,75 @@
+@media screen and (max-width: 600px){
+    .titulo{
+        margin-left: 15px;
+        margin-bottom: 50px;
+    }
+    .imag{
+        margin-left: 60px;
+        width: 300px;
+        height: 250px;
+    }
+    .publi{
+        width: 300px;
+        margin-left: 20px;
+        margin-right: 30px;
+    }
+
+    /* Tutorial */
+
+    p{
+        width: 300px;
+        margin-left: 40px;
+    }
+    form{
+        margin-left: 40px;
+    }
+
+    /* Perguntas */
+    .caixa{
+        display: grid;
+        grid-template-columns: 400px;
+        grid-template-rows: 450px;
+    }
+
+    .txper h2{
+        font-size: 23px;
+        padding: 15px 40px 15px 15px;
+    }
+    
+    .alt{
+        grid-template-columns: 210px 210px;
+        grid-template-rows: 100px 110px;
+    }
+    .alt a{
+        padding: 10px 15px;
+    }
+
+    /* Desempenho */
+    .cx_desempenho{
+        margin-left: 90%;
+        transition: 0.5s;
+    }
+    .cx_desempenho:hover{
+        transform: translateX(-270px);
+        transition: 0.5s;
+    }
+
+    footer{
+        width: 430px;
+    }
+}
+
+@media screen and (min-width: 610px) and (max-width: 1100px){
+    .cx_desempenho{
+        margin-left: 90%;
+        transition: 0.5s;
+    }
+    .cx_desempenho:hover{
+        transform: translateX(-270px);
+        transition: 0.5s;
+    }
+
+    footer{
+        width: 850px;
+    }
+}

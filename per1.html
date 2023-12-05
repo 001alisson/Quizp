@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perguntas</title>
+    <link rel="stylesheet" href="st.css">
+    <link rel="stylesheet" href="str.css">
+</head>
+<body style="background-image: url(fundo2.jpg);">
+    <!--Desempenho-->
+    <div class="cx_desempenho">
+        <h1>Perg.</h1>
+        <h3>Certas</h3>
+        <h4>Erradas</h4>
+
+        <h1>1ª</h1>
+        <h3 id="c1"></h3>
+        <h4 id="e1"></h4>
+
+        <h1>2ª</h1>
+        <h3 id="c2"></h3>
+        <h4 id="e2"></h4>
+
+        <h1>3ª</h1>
+        <h3 id="c3"></h3>
+        <h4 id="e3"></h4>
+        
+        <h1>4ª</h1>
+        <h3 id="c4"></h3>
+        <h4 id="e4"></h4>
+
+        <h1>5ª</h1>
+        <h3 id="c5"></h3>
+        <h4 id="e5"></h4>
+
+    </div>
+<!--11111111111111-->
+    <h1 class="titulo">1ª Pergunta</h1>
+
+    <div class="caixa">
+        <div class="txper">
+            <h2><b>1ª </b> A programação é muito importante nos dias de hoje e só tende a crescer com os avanços tecnológicos,
+                ela está presente em nossos dias desde quando acordamos com despertadores e até mesmo neste jogo que você está jogando.
+                Marque a alternativa que traz, de forma resumida, o que é a programação.
+                </h2>
+        </div>
+
+        <div class="alt">
+            <a onclick="certa1()">Instruções definidas pelo pragramador.</a>
+            <a id="r1" onclick="errada1()">Uma parte especial dos eletrônicos</a>
+            <a id="r2" onclick="errada1()">Códigos escritos somente em 0 e 1</a>
+            <a id="r3" onclick="errada1()">Uma linguagem que computadores entendem</a>
+        </div>
+
+    </div>
+
+    
+<!--2222222222222222-->
+    <h1 class="titulo">2ª Pergunta</h1>
+    
+    <div class="caixa">
+        <div class="txper">
+            <h2><b>2ª </b>Um dos objetivos do projeto é ensinar um pouco sobre os primeiros programadores negros 
+                da história. Dentre os pregramadores citados abaixo, qual deles não faz parte do grupo de programadores
+                citados no projeto?
+                </h2>
+        </div>
+
+        <div class="alt">
+            <a id="r4" onclick="errada2()">Dorothy Vaughan</a>
+            <a onclick="certa2()">Villian</a>
+            <a id="r5" onclick="errada2()">Mark Dean</a>
+            <a id="r6" onclick="errada2()">Ada Lovelace</a>
+        </div>
+    </div>
+
+<!--333333333333333-->
+
+    <h1 class="titulo">3ª Pergunta</h1>
+        
+    <div class="caixa">
+        <div class="txper">
+            <h2><b>3ª </b> Phillip Emeeagwali foi uma figura importante na história da programação,
+                 além de que obteve bacharelado em matemática e outros 3 diplomas, dentre os quais doutorado em computação científica.
+                 Marque a alternativa que apresenta um dos fatos que o tornou conhecido no mundo da tecnológia. 
+                </h2>
+        </div>
+
+        <div class="alt">
+            <a id="r8" onclick="errada3()">Desenvolver um aplicativo revolucionário</a>
+            <a id="r7" onclick="errada3()">Resolver um problema sério da época</a>
+            <a onclick="certa3()">Inventar o computador mais rápido do mundo</a>
+            <a id="r9" onclick="errada3()">Com a criação de um componente eletrônico</a>
+        </div>
+    </div>
+    
+    <h1 class="titulo">4ª Pergunta</h1>
+
+    <div class="caixa">
+        <div class="txper">
+            <h2><b>4ª </b> Calculos são muito importantes, desde para situações que evolvam matemática
+                até para vários processos realizados por computadores e outros aparelhos eletrônicos. 
+                Houve uma época onde achave-se que os computadores serviriam apenas para calculos, mas uma 
+                pessoa mudou isso, sendo capaz de escrever o primeiro algorítmo do mundo. Marque a alternativa
+                que traz o nome desta pessoa.
+                </h2>
+        </div>
+
+        <div class="alt">
+            <a id="r10" onclick="errada4()">Dorothy Vaughan</a>
+            <a id="r11" onclick="errada4()">Sonia Guimarães</a>
+            <a onclick="certa4()">Ada Lovelace</a>
+            <a id="r12" onclick="errada4()">Otis Boykin</a>
+        </div>
+    </div>
+
+    <h1 class="titulo">5ª Pergunta</h1>
+
+    <div class="caixa">
+        <div class="txper">
+            <h2><b>5ª </b> Alguns dispositivos eletrônicos podem ser de grande ajuda para as pessoas, um grande exemplo são
+                os computadores e os celulares obviamente. Mas há aqueles que, para algumas pessoas, podem garantir que 
+                esse pessoa possa viver, como os aparelhos hospitalares. Um dos programadores citados neste projeto 
+                foi responsável por criar componentes eletrônicos que permitiram o funcionamento do primeiro marca-passo 
+                implantável. Quem foi esse programador?
+                </h2>
+        </div>
+
+        <div class="alt">
+            <a id="r13" onclick="errada5()">Mark Dean</a>
+            <a id="r14" onclick="errada5()">Phillip Emeeagwali</a>
+            <a id="r15" onclick="errada5()">Evelyn Boyd Granville</a>
+            <a onclick="certa5()">Otis Boykin</a>
+        </div>
+    </div>
+
+    <button onclick="boa_sorte()" class="btav" style="margin-bottom: 50px;">Reiniciar</button>
+    <a href="index.html" class="btav">Início</a>    
+
+    <script src="stj.js">
+        
+    </script>
+    <footer></footer>
+</body>
+</html>
